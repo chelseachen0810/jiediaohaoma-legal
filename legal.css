@@ -6,9 +6,11 @@ main { width: min(760px, 100%); margin: 0 auto; padding: 42px clamp(22px, 5vw, 5
 h1 { margin: 10px 0 8px; font-size: clamp(30px, 6vw, 46px); line-height: 1.15; }
 .meta { color: #66746f; margin-bottom: 32px; }
 h2 { margin: 30px 0 10px; font-size: 20px; }
+h3 { margin: 22px 0 6px; font-size: 17px; }
 p, li { color: #3f514a; font-size: 16px; line-height: 1.8; }
 ul { padding-left: 22px; }
 a { color: #216c52; }
 .notice { padding: 15px 18px; background: #eef6f1; border-radius: 14px; }
+.action-link { display: inline-block; padding: 12px 18px; border-radius: 12px; background: #216c52; color: #fff; font-weight: 700; text-decoration: none; }
 footer { margin-top: 38px; padding-top: 22px; border-top: 1px solid #e7e4dc; color: #66746f; }
 @media (max-width: 520px) { body { padding: 0; } main { min-height: 100vh; border: 0; border-radius: 0; box-shadow: none; } }
